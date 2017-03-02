@@ -5,74 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>François Lemoine's Portfolio</title>
+    <link href="http://fonts.googleapis.com/css?family=Raleway:100,300" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="http://fonts.googleapis.com/css?family=Raleway:100,300" rel="stylesheet">
-
+    <script type="text/javascript" src="js/[JQuery file name]"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
     <main class="container">
-      <div class="row">
-        <div class="col-md-6">
-            <img class="img-responsive" src="images/logo.jpg" alt="Portfolio picture">
+      <header class="row">
+        <div class="col-xs-3">
+            <img class="title-logo" src="images/logo.jpg" alt="Portfolio picture">
         </div>
-        <div class="col-md-6 text-right text-uppercase">
-            <h1 class"text-thin">François Lemoine</h1>
-            <h4>Machine Learning Developer</h4>
+        <div class="col-xs-9 text-right text-uppercase">
+            <h1 class"text-thin title-super">François Lemoine</h1>
+            <h4 class="subtitle">Machine Learning Developer</h4>
         </div>
-      </div>
+      </header>
       <div class="row">
         <div class="col-md-12">
           <hr>
         </div>
       </div>
-      <div class="row">
+      <figure class="row">
         <div class="col-md-12">
           <img class="img-responsive" src="images/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg" alt="Mountain image">
         </div>
-      </div>
+      </figure>
       <div class="row">
         <div class="col-md-12">
           <h2 class="text-muted">Featured Work</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
+      <div class="row text-center">
+        <section class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4">
           <img class="img-responsive" src="images/peer-to-peer.jpg" alt="Image about peer to peer lending">
           <h3 class="text-uppercase">Peer-To-Peer Lending</h3>
-          <p>https://github.com/lemoinef/Loan-Default-Prediction</p>
-        </div>
-        <div class="col-md-4">
+          <a href="https://github.com/lemoinef/Loan-Default-Prediction" target="_blank">https://github.com/lemoinef/Loan-Default-Prediction</a>
+        </section>
+        <section class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4">
           <img class="img-responsive" src="images/titanic.jpg" alt="Image about the Titanic">
           <h3 class="text-uppercase">Titanic Survival Prediction</h3>
-          <p>https://github.com/lemoinef/Titanic-Survival-Exploration</p>
-        </div>
-        <div class="col-md-4">
+          <a href="https://github.com/lemoinef/Titanic-Survival-Exploration" target="_blank">https://github.com/lemoinef/Titanic-Survival-Exploration</a>
+        </section>
+        <section class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4">
           <img class="img-responsive" src="images/boston_houses.png" alt="Boston Houses">
           <h3 class="text-uppercase">Boston Housing Prices</h3>
-          <p>https://github.com/lemoinef/Predicting-Boston-Housing-Prices</p>
-        </div>
+          <a heref="https://github.com/lemoinef/Predicting-Boston-Housing-Prices" target="_blank">https://github.com/lemoinef/Predicting-Boston-Housing-Prices</a>
+        </section>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <img class="img-responsive" src="images/peer-to-peer.jpg" alt="Image about peer to peer lending">
-          <h3 class="text-uppercase">Peer-To-Peer Lending</h3>
-          <p>https://github.com/lemoinef/Loan-Default-Prediction</p>
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="modal-project1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modal-project1">Peer-To-Peer Lending</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/peer-to-peer.jpg">
+                    This was the capstone project of Udacity's Machine Learning Nanodegree.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-          <img class="img-responsive" src="images/titanic.jpg" alt="Image about the Titanic">
-          <h3 class="text-uppercase">Titanic Survival Prediction</h3>
-          <p>https://github.com/lemoinef/Titanic-Survival-Exploration</p>
-        </div>
-        <div class="col-md-4">
-          <img class="img-responsive" src="images/boston_houses.png" alt="Boston Houses">
-          <h3 class="text-uppercase">Boston Housing Prices</h3>
-          <p>https://github.com/lemoinef/Predicting-Boston-Housing-Prices</p>
-        </div>
-      </div>
-
-
     </div>
-  </main>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="modal-project2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modal-project2">Predicting Disaster Aboard Titanic</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/titanic.jpg">
+                    This is a Kaggle competition.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="modal-project3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modal-project3">Predicting Boston Housing Prices</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/boston_houses.png">
+                    This was a project about predicting housing prices in the city of Boston.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
