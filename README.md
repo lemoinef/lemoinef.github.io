@@ -14,7 +14,7 @@ Template code is provided in the file `index.html`. While some code has already 
 
 ### Run
 
-To see the portfolio, navigate to the folder of this repository and right click on the index.html file and select open in the browser. This will showcase in your browser the result of the project. 
+To see the portfolio, navigate to the folder of this repository and right click on the `index.html` file and select open in the browser. This will showcase in your browser the result of the project. 
 
 ### Images
 
