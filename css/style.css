@@ -4,7 +4,7 @@ body {
   font-weight: 300;
 }
 
-hr{
+hr {
   background: #bcbbbb;
   border: 0;
   height: 2px;
@@ -15,7 +15,7 @@ hr{
 }
 
 .text-muted {
-  color: #BCBBBB;
+  color: #bcbbbb;
 }
 
 .text-thin {
@@ -49,18 +49,15 @@ hr{
     font-size: 20px;
   }
 
-  .subtitle {
+  .subtitle,
+  a {
     font-size: 12px;
   }
 
   .text-uppercase {
     font-size: 15px;
   }
-
-  a {
-    font-size: 12px;
-  }
-}
+  
 
 @media screen and (max-width: 320px) {
   .subtitle {
