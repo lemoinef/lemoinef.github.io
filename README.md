@@ -6,7 +6,7 @@ This project requires the following framework installed:
 
 - [Bootstrap](http://getbootstrap.com/)
 
-Udacity recommends the students to install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all sorts of libraries and software for developing this project. 
+Udacity recommends students to install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all sorts of libraries and software for developing this project. 
 
 ### Code
 
