@@ -1,5 +1,5 @@
 # Project: François Lemoine's Portfolio
-## Building a Portfolio as Part of the Full-Stack Nanodegree
+## Building a Portfolio as Part of the Full-Stack Developer Nanodegree
 ### Install
 
 This project requires the following framework installed:
